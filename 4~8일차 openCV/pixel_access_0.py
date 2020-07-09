@@ -1,0 +1,11 @@
+import cv2 as cv
+import numpy as np
+
+img = np.zeros((480, 640, 3), dtype=np.uint8)
+
+img[240, 320] = (0, 255, 0)
+img[240, 322] = (0, 0, 255)
+img[240, 321, 0] = 255
+
+cv.imshow('img', img)
+cv.waitKey()
