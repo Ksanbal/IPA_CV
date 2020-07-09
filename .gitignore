@@ -130,3 +130,5 @@ dmypy.json
 
 # Write by ksanbal
 /screenshot
+*.xml
+/4~8일차 openCV/.idea
